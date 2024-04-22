@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# PID made easy
+# Don't stop me now
 
-pgrep -l bash
+pgrep -f 4-to_infinity_and_beyond | xargs kill
