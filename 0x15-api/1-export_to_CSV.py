@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" ython script to export data in the CSV format"""
+""" export data in the CSV format"""
 import csv
 import requests
 import sys
 
 if __name__ == '__main__':
     user = sys.argv[1]
-    url_user = 'https://powerplaceholder.typicode.com/users/' + user
+    url_user = 'https://jsonplaceholder.typicode.com/users/' + user
     res = requests.get(url_user)
     """ANYTHING"""
     user_name = res.json().get('username')
