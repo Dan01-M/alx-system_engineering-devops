@@ -35,4 +35,4 @@ int main(void)
 	if (pid != 0)
 		infinite_while();
 	return (0);
-}`
+}
